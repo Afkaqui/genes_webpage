@@ -1,15 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-// Importar todas las imágenes de autoridades
-import DIRECTOR1 from '@/images/autoridades/default.png';
+// Importar multimedia de directores
+import DIRECTOR1 from '@/images/autoridades/img001_Eduardo Noriega.jpeg';
 import DIRECTOR2 from '@/images/autoridades/img002_Ada_Liccet.jpeg';
 import DIRECTOR3 from '@/images/autoridades/img003_Percy_Alberto.png';
 import DIRECTOR4 from '@/images/autoridades/img004_Cristian_Augusto.jpeg';
-import DIRECTOR5 from '@/images/autoridades/default.png';
+import DIRECTOR5 from '@/images/autoridades/img005_Jhina_Lorena.png';
 import DIRECTOR6 from '@/images/autoridades/img006_Juan_Miguel.jpg';
 import DIRECTOR7 from '@/images/autoridades/img007_Mara_Isabel.png';
-import DIRECTOR8 from '@/images/autoridades/default.png';
+import DIRECTOR8 from '@/images/autoridades/img008_Rosa_Karina.jpeg';
 
 export const DirectorComponent = () => {
   const directores = [

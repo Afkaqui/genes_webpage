@@ -96,7 +96,7 @@ export default function GenesLayout({ children }: {
     return (
         <html lang="en">
             <body>
-                {/* Puedes incluir aquí tu componente Header o cualquier otro componente global */}
+                
                 <main className="min-h-screen">
                     <Header />
 
