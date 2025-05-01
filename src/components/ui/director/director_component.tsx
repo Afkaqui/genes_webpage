@@ -57,7 +57,7 @@ export const DirectorComponent = () => {
     },
     {
       nombre: "Rosa Karina Pinasco Vela",
-      cargo: "CARGO EJEMPLO",
+      cargo: "DIRECTORA FUNDADORA",
       imagen: DIRECTOR8,
       enlace: "https://www.linkedin.com/in/rosa-karina-pinasco-vela-5b031b150/"
     }
