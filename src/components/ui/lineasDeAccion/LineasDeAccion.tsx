@@ -3,7 +3,8 @@ import SER_SOSTE from '@/images/icons/img001_servicios.svg';
 import PRODUCT_SOSTE from '@/images/icons/img002_produtoc_sostenibles.svg';
 import CIUD_SOSTE from '@/images/icons/img003_ciudades_soste.svg';
 import RECURSOS from '@/images/icons/img004_recursos.svg';
-
+import Tarjeta005 from '@/images/icons/img005_finanzas.png';
+import Tarjeta006 from '@/images/icons/006_alimentacion.png';
 
 export const LineasDeAccion = () => {
     return (
@@ -28,73 +29,103 @@ export const LineasDeAccion = () => {
                         <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[300px]">
                             <Image
                                 src={SER_SOSTE}
-                                alt="Servicios sostenibles"
+                                alt="Capital Natural y Bioeconomía Regenerativa"
                                 width={100}
                                 height={100}
                                 className="mb-4"
                             />
                             <h3 className="text-lg sm:text-xl text-[#101828] font-semibold mb-2 leading-7 text-center sm:text-left">
-                                Servicios sostenibles
+                                Capital Natural y Bioeconomía Regenerativa
                             </h3>
-                            <p>•Turismo sostenible</p>
-                            <p>•Educación</p>
-                            <p>•Cultura</p>
-                            <p>•Finanzas Verdes</p>
+                            <p>•Bioeconomía</p>
+                            <p>•Naturaleza Viva</p>
+                            <p>•Recursos Sostenibles</p>
                         </div>
 
                         {/* Tarjeta 2 */}
                         <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[300px]">
                             <Image
                                 src={PRODUCT_SOSTE}
-                                alt="Producción sostenible"
+                                alt="Productos y Servicios Sostenibles"
                                 width={100}
                                 height={100}
                                 className="mb-4"
                             />
                             <h3 className="text-lg sm:text-xl text-[#101828] font-semibold mb-2 leading-7 text-center sm:text-left max-w-[300px]">
-                                Producción sostenible y consumo responsable
+                                Territorios Resilientes y Transición Justa
                             </h3>
-                            <p>•Gastronomía y salud</p>
-                            <p>•Agricultura</p>
-                            <p>•Moda y belleza</p>
-                            <p>•Acuicultura</p>
+                            <p>•Ciudades Verdes</p>
+                            <p>•Clima Seguro</p>
+                            <p>•Comunidades Fuertes</p>
                         </div>
 
                         {/* Tarjeta 3 */}
                         <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[300px]">
                             <Image
                                 src={CIUD_SOSTE}
-                                alt="Ciudades sostenibles"
+                                alt="Industria Circular y Competitividad Sostenible"
                                 width={100}
                                 height={100}
                                 className="mb-4"
                             />
                             <h3 className="text-lg sm:text-xl text-[#101828] font-semibold mb-2 leading-7 text-center sm:text-left">
-                                Ciudades y comunidades sostenibles
+                                Industria Circular y Competitividad Sostenible
                             </h3>
-                            <p>•Energía</p>
-                            <p>•Residuos Sólidos</p>
-                            <p>•Agua y Saneamiento</p>
-                            <p>•Construcción </p>
-                            <p>•Transporte</p>
+                            <p>•Residuo Cero</p>
+                            <p>•Reusar Todo</p>
+                            <p>•Producción Eficiente</p>
                             </div>
 
                         {/* Tarjeta 4 */}
                         <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[300px]">
                             <Image
                                 src={RECURSOS}
-                                alt="Recursos naturales"
+                                alt="Turismo Regenerativo y Economías Creativas"
                                 width={100}
                                 height={100}
                                 className="mb-4"
                             />
                             <h3 className="text-lg sm:text-xl text-[#101828] font-semibold mb-2 leading-7 text-center sm:text-left">
-                                Recursos naturales
+                                Turismo Regenerativo y Economías Creativas
                             </h3>
-                            <p>•Bosques y flora</p>
-                            <p>•Fauna</p>
-                            <p>•Gestión del agua y Océanos.</p>
+                            <p>•Viaje Consciente</p>
+                            <p>•Cultura Local</p>
+                            <p>•Ecoturismo</p>
                             </div>
+                        {/* Tarjeta 5 Finanzas e Innovación para el Impacto */}
+                        <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[300px]">
+                            <Image
+                                src={Tarjeta005}
+                                alt="Finanzas e Innovación para el Impacto"
+                                width={100}
+                                height={100}
+                                className="mb-4"
+                            />
+                            <h3 className="text-lg sm:text-xl text-[#101828] font-semibold mb-2 leading-7 text-center sm:text-left">
+                                Finanzas e Innovación para el Impacto
+                            </h3>
+                            <p>•Inversión Verde</p>
+                            <p>•Tecnología Sostenible</p>
+                            <p>•Fondos Clima</p>
+                            </div>
+                        {/* Tarjeta 6 Bienestar Humano y Sistemas Alimentarios Sostenibles  */}
+                        <div className="rounded-lg p-6 flex flex-col items-center sm:items-start justify-start bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 w-full sm:w-[250px] md:w-[300px]">
+                            <Image
+                                src={Tarjeta006}
+                                alt="Bienestar Humano y Sistemas Alimentarios Sostenibles"
+                                width={100}
+                                height={100}
+                                className="mb-4"
+                            />
+                            <h3 className="text-lg sm:text-xl text-[#101828] font-semibold mb-2 leading-7 text-center sm:text-left">
+                                Bienestar Humano y Sistemas Alimentarios Sostenibles 
+                            </h3>
+                            <p>•Comida Sana</p>
+                            <p>•Salud Total</p>
+                            <p>•Alimentos Justos</p>
+                            </div>
+
+
                     </div>
                 </div>
             </div>
