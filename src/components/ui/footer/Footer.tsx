@@ -51,8 +51,8 @@ export const Footer = () => {
             </div>
 
             <div className="text-center text-xs sm:text-sm mt-6 w-full max-w-[1200px] px-6">
-                <div className="mb-2">© Copyright - Agencia de Marketing y Comunicación Sostenible Las Monas Lisas – 2024</div>
-                <div>Diseñado y desarrollado por Resow Solutions S.A.C. con el apoyo de Las Monas Lisas S.A.C.</div>
+                <div className="mb-2">© 2025 GENES PERÚ. Todos los derechos reservados.</div>
+                <div>Diseñado y desarrollado por <a href='https://www.linkedin.com/in/afkaqui/'>Angel Kaqui</a></div>
             </div>
         </footer>
     );

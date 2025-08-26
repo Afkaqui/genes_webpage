@@ -11,6 +11,7 @@ import { ContactUs } from '@/components/ui/contactUs/ContactUs';
 import { Trayectoria } from '@/components/ui/trayectoria/Trayectoria';
 import {Socios} from '@/components/ui/socios/socios_page'
 
+//Componente nuevo
 
 export default function Home() {
     return (
